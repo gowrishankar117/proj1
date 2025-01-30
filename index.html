@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Top Threes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+        <img src="c:\Users\Administrator.NSS-SRINIVASRAO\Downloads\logo.webp" alt="The Top Threes Logo">
+    </div>
+    <h1>The Top Threes</h1>
+  </header>
+
+  <main>
+    <div class="dropdown">
+      <label for="topics">Choose a topic:</label>
+      <select id="topics">
+        <option value="">--Select Topic--</option>
+        <option value="movies">Movies</option>
+        <option value="news">News</option>
+        <option value="music">Music</option>
+        <option value="sports">Sports</option>
+      </select>
+
+      <label for="subtopics">Choose a subtopic:</label>
+      <select id="subtopics">
+        <option value="">--Select Subtopic--</option>
+        <option value="worldwide">Worldwide</option>
+        <option value="indian">Indian</option>
+        <option value="korean">Korean</option>
+        <option value="spanish">Spanish</option>
+        <option value="chinese">Chinese</option>
+      </select>
+
+      <button id="fetchVideos">Show Videos</button>
+    </div>
+
+    <div id="videoDisplay" class="video-container"></div>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
